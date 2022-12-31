@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+html{
+  font-family: 'Work Sans', sans-serif;
+}
+body{
+  background-color:#7f6270;
+}
+
+p{
+  color: #ffffff;
+  font-family: 'Quicksand', sans-serif;
+}
+button{
+  background-color:#000000;
+  color:#ffffff;
+  border: none;
+  border-radius: 2px;
+  transition: all 2s ease;
+}
+button:hover{
+  transition: all 0.5s ease;
+  background-color:#454545;
+}

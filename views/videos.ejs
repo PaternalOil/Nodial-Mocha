@@ -3,7 +3,13 @@
     <style> <%- myCss.style %> </style>
   </head>
   <body>
-    <h1>VIDEOS!!!</h1>
-    <button><img src="views/img1.jpg" alt="thumbnail"></button>
+    <h1>Files</h1>
+    <p>Select files</p>
+     <div class="Download">
+       <p>Select a file.</p>
+       <form action="/videos" method="get">
+         <input type="text" placeholder="Type a file name..">
+       </form> 
+     </div>
   </body>
 </html>
