@@ -3,8 +3,24 @@
     <style> <%- myCss.style %> </style>
   </head>
   <body>
-    <h1>NODA BOCA</h1>
-    <a href='/login'><button class="button">Login</button></a>
+    <h1>NODA MOCHA</h1>
+    <p>A Node.js rest API project</p>
+    <a href='/videos'><button class="button">Videos</button></a>
+    <br>
+    <div class="Messagebox">
+    <form action="/" method="post">
+      <input type="text" name="alias" class="Thininput">
+      <div class="selecttype">
+       <select name="type">
+       <option value="Feedback">Feedback</option>
+       <option value="Media">Wanted Media</option>
+       </select>
+      </div>
+       <textarea name="message" rows="5" cols="30"></textarea>
+      <br>
+      <button type="submit"> Submit Message</button>
+    </form>
+    </div>
   </body>
 </html>
 

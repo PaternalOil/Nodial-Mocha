@@ -8,7 +8,6 @@ body{
   background-color:#7f6270;
   
 }
-
 p{
   color: #ffffff;
   font-size: 20px;
@@ -16,4 +15,15 @@ p{
 h1{
   font-size: 50px;
   color: #ffffff;
+}
+.Linkbox{
+  background-color: #fff;
+  padding: 10 10 10;
+  border-radius: 2px;
+  /* ^ Makes a box for anything in the div ^ */
+}
+input{
+  border: none;
+  background-image: url(/put in txtbox.png plzplzplz/);
+  background-repeat: repeat-x;
 }
